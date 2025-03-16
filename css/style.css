@@ -1,0 +1,92 @@
+/* ====== COMMON CSS START ===== */
+.common-button a{
+    text-decoration: none;
+    color: #1B1C2B;
+    background: #FCD980;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    padding: 16px 56px;
+    border: 1px solid transparent;
+    border-radius: 41px;
+}
+.common-button a:hover{
+    color: white;
+    background: transparent;
+    border-color: #BBBBCB;
+
+}
+a{
+    text-decoration: none;
+}
+/* ====== COMMON CSS END ===== */
+
+
+/* ====== NAVBAR START ===== */
+.maruf{
+    background: #1C1E53 !important;
+    padding: 16px 0px;;
+}
+.navbar-nav{
+    column-gap: 32px;
+}
+.nav-link{
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #BBBBCB;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color:white;
+}
+.navbar-button a{
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    font-size: 16px;
+    padding: 16px 48px;
+    border: 1px solid white;
+    border-radius: 41px;
+    margin-left: 48px;
+}
+.navbar-button a:hover{
+    background: #FCD980 !important;
+    border-color: transparent;
+    color: #1B1C2B;
+}
+/* ===== NAVBAR END ===== */
+/* ===== BANNER START ===== */
+.banner{
+    background: #1C1E53;
+    padding: 128px 0;
+}
+.banner h1{
+    font-size: 54px;
+    font-weight: 600px;
+    line-height: 74px;
+    color: white;
+    margin-bottom: 24px;
+}
+.banner p{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 28px;
+    margin-bottom: 48px;
+    color: white;
+}
+
+.pricing-button a{
+    font-size: 16px;
+    font-weight: 500px;
+    color: white;
+    padding-left: 40px;
+}
+.pricing-button a:hover{
+    color: #FCD980;
+}
+.pricing-button i{
+    padding-left: 16px;
+}
+
+/* ===== BANNER END ===== */
