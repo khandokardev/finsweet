@@ -1,5 +1,5 @@
 /* ====== COMMON CSS START ===== */
-.common-button a{
+.common-button a {
     text-decoration: none;
     color: #1B1C2B;
     background: #FCD980;
@@ -8,39 +8,59 @@
     padding: 16px 56px;
     border: 1px solid transparent;
     border-radius: 41px;
-}
-.common-button a:hover{
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  
+  .common-button a:hover {
     color: white;
     background: transparent;
     border-color: #BBBBCB;
-
-}
-a{
+  }
+  
+  a {
     text-decoration: none;
-}
-/* ====== COMMON CSS END ===== */
-
-
-/* ====== NAVBAR START ===== */
-.maruf{
+  }
+  
+  h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+  }
+  h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+  }
+  /* ====== COMMON CSS END ===== */
+  
+  
+  /* ====== NAVBAR START ===== */
+  .maruf {
     background: #1C1E53 !important;
-    padding: 16px 0px;;
-}
-.navbar-nav{
+    padding: 16px 0;
+  }
+  
+  .navbar-nav {
     column-gap: 32px;
-}
-.nav-link{
+  }
+  
+  .nav-link {
     padding: 0 !important;
     margin: 0 !important;
     color: #BBBBCB;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-}
-.nav-link:hover{
-    color:white;
-}
-.navbar-button a{
+  }
+  
+  .nav-link:hover {
+    color: white;
+  }
+  
+  .navbar-button a {
     text-decoration: none;
     color: white;
     background: transparent;
@@ -49,44 +69,294 @@ a{
     border: 1px solid white;
     border-radius: 41px;
     margin-left: 48px;
-}
-.navbar-button a:hover{
-    background: #FCD980 !important;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-button a:hover {
+    background: #FCD980;
     border-color: transparent;
     color: #1B1C2B;
-}
-/* ===== NAVBAR END ===== */
-/* ===== BANNER START ===== */
-.banner{
+  }
+  /* ===== NAVBAR END ===== */
+  
+  
+  /* ===== BANNER START ===== */
+  .banner {
     background: #1C1E53;
     padding: 128px 0;
-}
-.banner h1{
+  }
+  
+  .banner h1 {
     font-size: 54px;
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 74px;
     color: white;
     margin-bottom: 24px;
-}
-.banner p{
+  }
+  
+  .banner p {
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 28px;
     margin-bottom: 48px;
     color: white;
-}
-
-.pricing-button a{
+  }
+  
+  .pricing-button {
+    position: relative;
+  }
+  
+  .pricing-button a {
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     color: white;
     padding-left: 40px;
-}
-.pricing-button a:hover{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .pricing-button a:hover {
     color: #FCD980;
-}
-.pricing-button i{
+  }
+  
+  .pricing-button i {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+  
+  .pricing-button:hover i {
+    left: calc(100% + 10px);
+    opacity: 1;
+  }
+  /* ===== BANNER END ===== */
+  
+  
+  /* ===== WORK START ===== */
+  .work-section {
+    padding: 128px 0;
+    background: #F4F6FC;
+  }
+  
+  .work-section p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+    line-height: 28px;
+  }
+  
+  .work-section a {
+    color: #2405F2;
+    position: relative;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+  
+  .work-section a:hover {
+    color: #1B1C2B;
+  }
+  
+  .work-section a i {
     padding-left: 16px;
-}
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s ease;
+  }
+  
+  .work-section a:hover i {
+    left: 100px;
+    opacity: 1;
+  }
+  
+  .hww-boxs {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 0;
+  }
+  
+  .hww-box {
+    width: 50%;
+    padding-right: 16px;
+  }
+  
+  .hww-box h3 {
+    padding: 16px 0 8px 0;
+  }
+  /* ===== WORK END ===== */
+  
+  
+  /* ===== PROJECT SECTION ===== */
+  .project-section {
+    padding-top: 128px;
+    padding-bottom: 64px;
+  }
+  
+  .hww-box20 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-section a {
+    color: #1B1C2B;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  /* ===== PROJECT SECTION END ===== */
+  
+  
+  /* ===== PROJECTO SECTION START ===== */
+  .projecto-section{
+    padding-bottom: 128px;
+  }
+  .projecto-section .plone {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .projecto-section .plone .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    background: linear-gradient(to bottom right, #1C1E53, rgba(28, 30, 83, 0.42));
+    transition: all 0.3s ease;
+    z-index: 2;
+    display: flex;
+    align-items: end;
+    padding: 48px;
+  }
 
-/* ===== BANNER END ===== */
+  .projecto-section .plone:hover .overlay {
+    width: 46%;
+    opacity: 1;
+  }
+  .overlay-box h4{
+    color: white;
+  }
+  .overlay-box p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 28px;
+  }
+  
+  .overlay-box a {
+    color: #FCD980;
+    position: relative;
+    font-weight: 400px;
+    transition: 0.3s ease;
+  }
+  
+  .overlay-box a:hover {
+    color: #ffffff;
+  }
+  
+  .overlay-box a i {
+    padding-left: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s ease;
+    color: #FCD980;
+  }
+  
+  .overlay-box a:hover i {
+    left: 100px;
+    opacity: 1;
+  }
+
+
+  .projecto-section .plone2 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .projecto-section .plone2 .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+    background: linear-gradient(to bottom right, #1C1E53, rgba(28, 30, 83, 0.42));
+    transition: all 0.3s ease;
+    z-index: 2;
+  }
+
+  .projecto-section .plone2:hover .overlay2 {
+    height: 100%;
+    opacity: 1;
+  }
+  .overlay2{
+    align-content: flex-end;
+    padding: 30px;
+
+  }
+  .overlay-box2 h4{
+    color: white;
+  }
+  .overlay-box2 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 28px;
+  }
+  
+  .overlay-box2 a {
+    color: #FCD980;
+    position: relative;
+    font-weight: 400px;
+    transition: 0.3s ease;
+  }
+  
+  .overlay-box2 a:hover {
+    color: #ffffff;
+  }
+  
+  .overlay-box2 a i {
+    padding-left: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s ease;
+    color: #FCD980;
+  }
+  
+  .overlay-box2 a:hover i {
+    left: 100px;
+    opacity: 1;
+  }
+
+  /* ===== PROJECTO SECTION END ===== */
+  /* ===== FUTURES SECTION START ===== */
+  .futures-section{
+    padding-bottom: 128px;
+  }
+
+  .futures-section .fsd{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .futures-section .fsd h2{
+    width: 630px;
+    margin: 0 auto;
+  }
+
+  .futures-section .card img{
+    width: min-content;
+  }
+  
+  /* ===== FUTURES SECTION END ===== */
+  

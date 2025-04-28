@@ -1,81 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./js/script.js">
-    <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <!-- CSS FILES -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/all.min.css" />
+
+  <!-- FONT AWESOME CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <!-- ===== Nav bar Start ====== -->
-        <nav class="navbar navbar-expand-lg maruf">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-            </ul>
-            <div class="navbar-button">
-                <a href="#">Contact Us</a></div>
+
+  <!-- ===== NAVBAR START ===== -->
+  <nav class="navbar navbar-expand-lg maruf">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Company Logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+        </ul>
+        <div class="navbar-button">
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ===== NAVBAR END ===== -->
+
+  <!-- ===== BANNER START ===== -->
+  <section class="banner">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1>Building stellar<br /> websites for early startups</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          <div class="d-flex align-items-center gap-3">
+            <div class="common-button">
+              <a href="#">View our work</a>
+            </div>
+            <div class="pricing-button">
+              <a href="#">View Pricing <i class="fa-solid fa-right-long"></i></a>
+            </div>
           </div>
         </div>
-        </nav>
-    <!-- ===== Nav bar End ====== -->
-    <!-- ===== BANNER START===== -->
-        <section class="banner">
-            <div class="container">
-                <div class="row align-item-center">
-                    <div class="col-lg-6">
-                        <h1>Building stellar<br> websites for early startups</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        <div class="d-flex">
-                          <div class="common-button">
-                            <a href="#">View our work</a>
-                          </div>
-                          <div class="pricing-button">
-                            <a href="#">View Pricing <i class="fa-solid fa-right-long"></i></a>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="./img/banner-Illustration.jpg" alt="">
-                    </div>
-                </div>
+        <div class="col-lg-6 text-end">
+          <img src="./img/banner-Illustration.jpg" alt="Banner Illustration" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== BANNER END ===== -->
+
+  <!-- ===== WORK SECTION START ===== -->
+  <section class="work-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <h2>How we work</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit, sed do eiusmod tempor.</p>
+          <a href="#">Get in touch with us <i class="fa-solid fa-right-long"></i></a>
+        </div>
+        <div class="col-lg-7 hww-boxs">
+          <div class="hww-box">
+            <img src="./img/strategy icon.png" alt="Strategy Icon" />
+            <h3>Strategy</h3>
+            <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.</p>
+          </div>
+          <div class="hww-box">
+            <img src="./img/strategy icon.png" alt="Wireframing Icon" />
+            <h3>Wireframing</h3>
+            <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.</p>
+          </div>
+          <div class="hww-box">
+            <img src="./img/strategy icon.png" alt="Design Icon" />
+            <h3>Design</h3>
+            <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.</p>
+          </div>
+          <div class="hww-box">
+            <img src="./img/strategy icon.png" alt="Development Icon" />
+            <h3>Development</h3>
+            <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== WORK SECTION END ===== -->
+
+  <!-- ===== PROJECT SECTION START ===== -->
+  <section class="project-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg hww-box20">
+          <h2>View our projects</h2>
+          <a href="#">View More <i class="fa-solid fa-right-long"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== PROJECT SECTION END ===== -->
+
+  <!-- ===== PROJECTO SECTION START ===== -->
+  <section class="projecto-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="plone">
+            <img src="./img/Cardone.png" alt="Main Project Card" class="img-fluid" />
+            <div class="overlay">
+              <div class="overlay-box">
+                <h4>Workhub office Webflow Webflow Design</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga</p>
+                <a href="#">View project <i class="fa-solid fa-right-long"></i></a>
+              </div>
             </div>
-        </section>
-    <!-- ===== BANNER END===== -->
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex flex-column gap-3">
+          <div class="plone2">
+            <img src="./img/Rectangle 1313.png" alt="Secondary Image 1" class="img-fluid" />
+            <div class="overlay2">
+              <div class="overlay-box2">
+                <h4>Workhub office Webflow Webflow Design</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga</p>
+                <a href="#">View project <i class="fa-solid fa-right-long"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="plone2">
+            <img src="./img/Card.png" alt="Secondary Image 2" class="img-fluid" />
+            <div class="overlay2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== PROJECTO SECTION END ===== -->
+  <!-- ===== FUTURES SECTION START ===== -->
+   <section class="futures-section">
+    <div class="container">
+      <div class="row">
+        <div class="fsd">
+          <span>Features</span>
+          <h2>Design that solves problems, one product at a time</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card" style="width: 100%;">
+              <img src="./img/icon 1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Uses Client First</h5>
+                <p class="card-text">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+              </div>
+            </div>
 
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- ===== FUTURES SECTION END ===== -->
 
+  <!-- JS SCRIPTS -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
 
-
-
-    <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">   
-    <link rel="stylesheet" href="./js/script.js"> 
 </body>
 </html>
