@@ -508,7 +508,7 @@
   /* ===== FAQ SECTION END ===== */
   /* ===== CONTACT SECTION START ===== */
   .contact-section{
-    padding-bottom: 128px;
+    padding: 128px;
   }
   .contact-section .cib {
     position: relative;
@@ -561,6 +561,7 @@
     width: 100%;
     background: #FCD980;
     padding: 16px;
+    margin-top: 18px;
   }
   .contact-section .input-box .butbox{
     color: white;
@@ -572,6 +573,54 @@
   }
 
   .contact-section .row{
+    margin-top: 0;
+    margin-bottom: 0;
     
   }
+
+  .footer-section{
+    background: #1C1E53;
+    color: white;
+    padding-top: 128px;
+  }
+
+  .footer-section .iddji{
+    padding-left: 100px;
+  }
+  .footer-section img{
+    padding-bottom: 24px;
+  }
+  .footer-section .w-400{
+    width: 400px;
+  }
+  .footer-section .infobox{
+    background: #FCD980;
+    display: flex;
+    padding: 16px;
+    padding-left: 50px;
+    color: #1B1C2B;
+    margin-top: 80px;
+    }
+
+    .footer-section h2{
+      color: white;
+    }
+
+    
+
+  .footer-menu-sec ul.no-bullets {
+    list-style-type: none;
+    padding-left: 0;
+    column-gap: 32px;
+    justify-content: end;
+    color: white;
+  }
+  .footer-menu-sec ul.no-bullets a{
+    color: rgb(20, 19, 19);
+  }
+ 
+  .footer-menu-sec{
+    background: rgb(255, 255, 255);
+  }
+
   /* ===== CONTACT SECTION END ===== */
