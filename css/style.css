@@ -1,3 +1,10 @@
+/* ====== GLOBAL CSS START ===== */
+*:focus,
+*:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* ====== GLOBAL CSS END ===== */
 /* ====== COMMON CSS START ===== */
 .common-button a {
     text-decoration: none;
@@ -28,12 +35,34 @@
     color: #282938;
     font-family: "Poppins", sans-serif;
   }
+
+  h3 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+  }
+
   h4 {
     font-size: 24px;
     font-weight: 600;
     color: #282938;
     font-family: "Poppins", sans-serif;
   }
+
+  h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+  }
+  .f18{
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+  }
+
   /* ====== COMMON CSS END ===== */
   
   
@@ -185,7 +214,7 @@
     padding-right: 16px;
   }
   
-  .hww-box h3 {
+  .hww-box h4 {
     padding: 16px 0 8px 0;
   }
   /* ===== WORK END ===== */
@@ -342,21 +371,138 @@
   /* ===== FUTURES SECTION START ===== */
   .futures-section{
     padding-bottom: 128px;
+    padding-top: 128px;
+    background: #F4F6FC;
   }
 
   .futures-section .fsd{
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 47px;
   }
 
   .futures-section .fsd h2{
     width: 630px;
     margin: 0 auto;
   }
-
+  .futures-section .card{
+    padding: 58px 48px !important;
+  }
+  
+  .futures-section .card .card-title{
+    padding: 22px 0px 12px 0px !important;
+  }
   .futures-section .card img{
     width: min-content;
   }
-  
+
+  .futures-section .card .card-body{
+    padding: 0 !important;
+  }
+  .futures-section .row .fsmaruf{
+    row-gap: 20px;
+  }
+  .futures-section .card{
+    --bs-card-border-color: none !important;
+  }
   /* ===== FUTURES SECTION END ===== */
+  /* ===== CLIENT SECTION START ===== */
+
+  .client-section{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: rgba(244, 246, 252, 0.5);
+
+  }
+  .client-section .cs-text{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+  .client-section .cs-box{
+    width: 327px;
+  }
+  .client-section .cs-card{
+    display: flex;
+    column-gap: 20px;
+    padding-top: 48px;
+  }
+  .client-section .cs-card img{
+    width: 52px;
+    height: 52px;
+  }
+  /* ===== CLIENT SECTION END ===== */
+  /* ===== FAQ SECTION START ===== */
+  .faq-section{
+    padding: 128px 0px ;
+  }
+
+  .faq-section .fqp{
+    color: #2405F2;
+    font-size: 18px;
+    font-weight: 500px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 16px;
+  }
+  .faq-section .accordion-item{
+    border: none !important;
+    border-radius: none;
+  }
+  .faq-section .accordion-item h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+  }
+  .faq-section .accordion-item span{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-right: 50px;
+    width: 30px;
+    color: #2405F2;
+
+  }
+  .faq-section .accordion-body{
+    padding: 16px 0px 48px 50px !important;
+    border-bottom: 1px solid #ECECF1;
+  }
+  .faq-section .accordion-body p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+  }
+  .faq-section .accordion-button{
+    padding: 0px;
+  }
+  .faq-section button.accordion-button{
+    background: none;
+    padding-top: 0;
+  }
+  .faq-section .accordion-item:first-of-type>.accordion-header .accordion-button{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    box-shadow: none;
+  }
+  .faq-section button.accordion-button.collapsed{
+    padding: 32px 0px;
+  }
+  .faq-section .accordion-button::after{
+    background-image: none;
+    content: "+";
+    transform: none;
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+  }
+  .faq-section .accordion-button:not(.collapsed)::after{
+    background-image: none;
+    content: "x";
+    transform: none;
+    font-size: 30px;
+    font-family: "Manrope", sans-serif;
+  }
   
+  /* ===== FAQ SECTION END ===== */
